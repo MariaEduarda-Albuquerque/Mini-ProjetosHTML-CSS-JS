@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de Soma</h1>
+
+        <form>
+            <label for="num1">Digite o 1º número</label>
+            <input type="text" id="num1" name="num1" required>
+
+            <label for="num2">Digite o 2º número</label>
+            <input type="text" id="num2" name="num2" required>
+
+            <button type="button" onclick="calcularSoma()">Somar</button>
+        </form>
+
+        <h2>Resultado: <span id="resultado"></span></h2>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
